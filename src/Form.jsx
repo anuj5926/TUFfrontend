@@ -64,9 +64,9 @@ export default function Form() {
             <select id="language" name="language" value={formData.language} onChange={handleChange}>
                 <option value="" disabled>Select language</option>
                 <option value="c++">C++</option>
-                <option value="python">Java</option>
-                <option value="python">JavaScript</option>
-                <option value="python">Python</option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
             </select>
 
             <label htmlFor="stdinput">Standard Input :</label>
